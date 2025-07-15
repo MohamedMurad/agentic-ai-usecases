@@ -22,7 +22,6 @@ A personalized AI-powered assistant designed to represent your professional prof
   - 🌐 Personal websites
   - 📄 Resume (PDF)
   - 📃 Summary text
-  - 🖼️ Image-based documents (OCR via Tesseract)
 - Process and chunk data for efficient context management
 - Embed data into a local **Chroma Vector DB**
 - Dynamically retrieve top-matching contexts using vector similarity
@@ -149,7 +148,7 @@ If no context is found → it logs the question using `record_unknown_question`.
 
 - Add multi-user session support
 - Deploy as a web service with authentication
-- Improve OCR pipeline for scanned resumes
+- Use OCR pipeline for images
 - Integrate with LinkedIn API for real-time updates
 - Add feedback collection after each session
 
@@ -157,7 +156,7 @@ If no context is found → it logs the question using `record_unknown_question`.
 
 ## 🔖 Tags
 
-`#AI` `#AgenticAI` `#Gradio` `#Gemini` `#LLM` `#PersonalBranding` `#CareerAssistant` `#Ollama` `#Chroma` `#DataParsing`
+`#AI` `#AgenticAI` `#Gradio` `#Gemini` `#LLM` `#CareerAssistant` `#Ollama` `#Chroma` `#DataParsing`
 
 ---
 
